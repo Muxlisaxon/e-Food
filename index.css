@@ -1,0 +1,57 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .big-box{
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+ }
+ .right-box{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+ }
+ .list{
+    display: flex;
+ }
+ .list-item{
+    padding-right: 60px;
+    list-style: none;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 18px;                                                                                                                                                       
+    color: #363853;
+    cursor: pointer;
+ }
+ .list-item:hover{
+    color:  #FF6838;
+ }
+ .active{
+    list-style: none;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 18px;
+    color:  #FF6838;
+ }
+ .icon-box{
+    padding-right: 62px;
+ }
+ .num1{
+    padding-right: 62px;
+ }
+ .btn{
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px 27px;
+    background: #FF7A50;
+    box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+    border-radius: 5px;
+    border: none;
+ }
+  
